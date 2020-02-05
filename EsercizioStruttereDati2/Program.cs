@@ -14,7 +14,7 @@ namespace FileInt
         static void Main(string[] args)
         {
             HashSet<int> numeri = new HashSet<int>();
-            using (StreamReader x = new StreamReader(file, Encoding.UTF8))
+            using (StreamReader x = new StreamReader(file,Encoding.UTF8))
             {
                 string line;
                 while ((line = x.ReadLine()) != null)
